@@ -1,0 +1,155 @@
+{
+  "Ensemble_Model": {
+    "model_name": "Ensemble Model (Optimized)",
+    "accuracy": 0.8222222222222222,
+    "precision": 0.8823529411764706,
+    "recall": 0.7142857142857143,
+    "f1_score": 0.7894736842105263,
+    "roc_auc": 0.9146825396825397,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        6,
+        15
+      ]
+    ],
+    "true_negatives": 22,
+    "false_positives": 2,
+    "false_negatives": 6,
+    "true_positives": 15,
+    "specificity": 0.9166666666666666,
+    "sensitivity": 0.7142857142857143,
+    "classification_report": {
+      "0": {
+        "precision": 0.7857142857142857,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8461538461538461,
+        "support": 24.0
+      },
+      "1": {
+        "precision": 0.8823529411764706,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.7894736842105263,
+        "support": 21.0
+      },
+      "accuracy": 0.8222222222222222,
+      "macro avg": {
+        "precision": 0.8340336134453781,
+        "recall": 0.8154761904761905,
+        "f1-score": 0.8178137651821862,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.8308123249299719,
+        "recall": 0.8222222222222222,
+        "f1-score": 0.8197031039136302,
+        "support": 45.0
+      }
+    }
+  },
+  "RL_Model": {
+    "model_name": "Reinforcement Learning Model",
+    "accuracy": 0.8222222222222222,
+    "precision": 0.9333333333333333,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.7777777777777778,
+    "roc_auc": 0.9246031746031745,
+    "confusion_matrix": [
+      [
+        23,
+        1
+      ],
+      [
+        7,
+        14
+      ]
+    ],
+    "true_negatives": 23,
+    "false_positives": 1,
+    "false_negatives": 7,
+    "true_positives": 14,
+    "specificity": 0.9583333333333334,
+    "sensitivity": 0.6666666666666666,
+    "classification_report": {
+      "0": {
+        "precision": 0.7666666666666667,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.8518518518518519,
+        "support": 24.0
+      },
+      "1": {
+        "precision": 0.9333333333333333,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7777777777777778,
+        "support": 21.0
+      },
+      "accuracy": 0.8222222222222222,
+      "macro avg": {
+        "precision": 0.8500000000000001,
+        "recall": 0.8125,
+        "f1-score": 0.8148148148148149,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.8444444444444444,
+        "recall": 0.8222222222222222,
+        "f1-score": 0.8172839506172838,
+        "support": 45.0
+      }
+    }
+  },
+  "FL_Model": {
+    "model_name": "Federated Learning Global Model",
+    "accuracy": 0.8222222222222222,
+    "precision": 0.8823529411764706,
+    "recall": 0.7142857142857143,
+    "f1_score": 0.7894736842105263,
+    "roc_auc": 0.8988095238095238,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        6,
+        15
+      ]
+    ],
+    "true_negatives": 22,
+    "false_positives": 2,
+    "false_negatives": 6,
+    "true_positives": 15,
+    "specificity": 0.9166666666666666,
+    "sensitivity": 0.7142857142857143,
+    "classification_report": {
+      "0": {
+        "precision": 0.7857142857142857,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8461538461538461,
+        "support": 24.0
+      },
+      "1": {
+        "precision": 0.8823529411764706,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.7894736842105263,
+        "support": 21.0
+      },
+      "accuracy": 0.8222222222222222,
+      "macro avg": {
+        "precision": 0.8340336134453781,
+        "recall": 0.8154761904761905,
+        "f1-score": 0.8178137651821862,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.8308123249299719,
+        "recall": 0.8222222222222222,
+        "f1-score": 0.8197031039136302,
+        "support": 45.0
+      }
+    }
+  }
+}
